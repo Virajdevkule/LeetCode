@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Virajdevkule/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Virajdevkule/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0268-missing-number](https://github.com/Virajdevkule/LeetCode/tree/master/0268-missing-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Virajdevkule/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Binary Search
@@ -38,4 +39,8 @@
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Virajdevkule/LeetCode/tree/master/0268-missing-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Virajdevkule/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 <!---LeetCode Topics End-->
