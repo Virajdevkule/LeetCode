@@ -10,6 +10,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/Virajdevkule/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Virajdevkule/LeetCode/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/Virajdevkule/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Virajdevkule/LeetCode/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Virajdevkule/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Virajdevkule/LeetCode/tree/master/0268-missing-number) |
@@ -25,6 +26,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Virajdevkule/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/Virajdevkule/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
 ## Math
 |  |
 | ------- |
@@ -35,6 +37,7 @@
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Virajdevkule/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Virajdevkule/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Virajdevkule/LeetCode/tree/master/0268-missing-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Virajdevkule/LeetCode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -45,6 +48,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Virajdevkule/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Virajdevkule/LeetCode/tree/master/0268-missing-number) |
 ## Bit Manipulation
@@ -62,4 +66,12 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Virajdevkule/LeetCode/tree/master/0053-maximum-subarray) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Virajdevkule/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
