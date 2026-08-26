@@ -10,7 +10,6 @@ class Solution {
             }
             bestBuy = Math.min(bestBuy , prices[i]);
         }        
-        
         return maxProfit;
     }
 }
