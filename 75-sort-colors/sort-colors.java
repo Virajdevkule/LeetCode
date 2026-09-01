@@ -7,14 +7,18 @@ class Solution {
 
         while(mid <= high ){
             if(nums[mid] == 0){
+                //swap
                 int temp = nums[mid];
                 nums[mid] = nums[low];
                 nums[low] = temp ;
                 low++;
                 mid++;
+
             }else if (nums [mid] == 1 ){
                 mid++;
+                
             }else{
+                //swap
                 int temps = nums[mid];
                 nums[mid] = nums[high];
                 nums[high] = temps ;
