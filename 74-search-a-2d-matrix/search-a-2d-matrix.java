@@ -1,31 +1,42 @@
 class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
 
-        int rows = matrix.length;
-        int cols = matrix[0].length;
+    public boolean searchInrow (int[][] matrix, int target , int row ) {
+        int n = matrix[0].length ;
+        int st = 0 ;
+        int end = n-1 ;
 
-        int left = 0;
-        int right = rows * cols - 1;
-
-        while (left <= right) {
-
-            int mid = left + (right - left) / 2;
-
-            // Convert 1D index to 2D index
-            int row = mid / cols;
-            int col = mid % cols;
-
-            if (matrix[row][col] == target) {
-                return true;
-            }
-            else if (matrix[row][col] < target) {
-                left = mid + 1;
-            }
-            else {
-                right = mid - 1;
+        while (st <= end ){
+            int mid = st + (end - st ) / 2 ;
+            if (target == matrix[row][mid]){
+                return true ;
+            }else if (target > matrix[row][mid]){
+                st = mid + 1 ;
+            }else{
+                end = mid - 1 ;
             }
         }
+        return false ;
 
-        return false;
+    }
+    public boolean searchMatrix(int[][] matrix, int target) {
+
+        int m = matrix.length ;
+        int n = matrix[0].length ;
+        int startRow = 0 ;
+        int endRow = m -1 ;
+        while (startRow <= endRow ){
+            int midRow = startRow + (endRow - startRow ) / 2 ;
+
+            if(target >= matrix[midRow][0] && target <= matrix[midRow][n-1]){
+                return searchInrow(matrix , target , midRow ) ;
+
+            }else if ( target >= matrix[midRow][n-1]){
+                startRow = midRow + 1 ;
+
+            }else{
+                endRow  = midRow - 1 ;
+            }
+        }
+        return false ;
     }
 }
